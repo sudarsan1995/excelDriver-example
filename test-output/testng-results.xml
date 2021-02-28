@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="23044" started-at="2021-01-20T17:34:22 IST" finished-at="2021-01-20T17:34:45 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="23044" started-at="2021-01-20T17:34:22 IST" finished-at="2021-01-20T17:34:45 IST">
+      <class name="com.testcases.TC_01_DataDriven">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:com.testcases.TC_01_DataDriven@f4168b8]" name="initializeDriver" is-config="true" duration-ms="20702" started-at="2021-01-20T17:34:22 IST" finished-at="2021-01-20T17:34:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="FAIL" signature="a_readExcelData()[pri:0, instance:com.testcases.TC_01_DataDriven@f4168b8]" name="a_readExcelData" duration-ms="1507" started-at="2021-01-20T17:34:43 IST" finished-at="2021-01-20T17:34:44 IST">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+at org.junit.Assert.fail(Assert.java:86)
+at org.junit.Assert.assertTrue(Assert.java:41)
+at org.junit.Assert.assertTrue(Assert.java:52)
+at com.testcases.TC_01_DataDriven.a_readExcelData(TC_01_DataDriven.java:64)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a_readExcelData -->
+        <test-method status="PASS" signature="b_simple()[pri:0, instance:com.testcases.TC_01_DataDriven@f4168b8]" name="b_simple" duration-ms="2" started-at="2021-01-20T17:34:45 IST" finished-at="2021-01-20T17:34:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_simple -->
+        <test-method status="PASS" signature="c_simple()[pri:0, instance:com.testcases.TC_01_DataDriven@f4168b8]" name="c_simple" duration-ms="1" started-at="2021-01-20T17:34:45 IST" finished-at="2021-01-20T17:34:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c_simple -->
+        <test-method status="PASS" signature="d_simple()[pri:0, instance:com.testcases.TC_01_DataDriven@f4168b8]" name="d_simple" duration-ms="3" started-at="2021-01-20T17:34:45 IST" finished-at="2021-01-20T17:34:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- d_simple -->
+        <test-method status="PASS" signature="e_simple()[pri:0, instance:com.testcases.TC_01_DataDriven@f4168b8]" name="e_simple" duration-ms="3" started-at="2021-01-20T17:34:45 IST" finished-at="2021-01-20T17:34:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- e_simple -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.TC_01_DataDriven@f4168b8]" name="tearDown" is-config="true" duration-ms="1" started-at="2021-01-20T17:34:45 IST" finished-at="2021-01-20T17:34:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testcases.TC_01_DataDriven -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

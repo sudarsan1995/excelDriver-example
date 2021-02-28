@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 28.351 s <<< FAILURE! - in TestSuite
+com.testcases.TC_01_DataDriven.readExcelData  Time elapsed: 27.82 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+[public void com.testcases.TC_01_DataDriven.readExcelData(java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException,java.lang.InterruptedException] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: readExcelData([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) ,(java.lang.String) ]
+

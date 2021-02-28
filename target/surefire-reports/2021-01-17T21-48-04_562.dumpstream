@@ -1,0 +1,4 @@
+# Created at 2021-01-17T21:48:07.832
+Boot Manifest-JAR contains absolute paths in classpath 'G:\Eclipse Projects\exceldriven\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
